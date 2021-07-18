@@ -10,7 +10,7 @@ Live Application: https://iano.herokuapp.com/
 
 - HTML
 - CSS
-JAVASCRIPT
+- JAVASCRIPT
 
 
 Run Locally:
