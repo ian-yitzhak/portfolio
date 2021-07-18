@@ -1129,3 +1129,97 @@ button
     color: #fff;
     border-bottom: 1px solid #eee;
 }
+
+.contact  ul {
+  position:absolute;
+  top:100%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  margin:0;
+  padding:0;
+  display:flex;
+}
+
+.contact  ul li {
+  list-style: none;
+}
+
+.contact  ul li a {
+  position: relative;
+  width:60px;
+  height:60px;
+  display:block;
+  text-align:center;
+  margin:0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration:none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: .5s;
+}
+
+.contact  ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration:none;
+}
+
+.contact  ul li a .fab {
+  widht: 100%;
+  height:100%;
+  display:block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size:24px;
+  color: #262626;
+  transition: .5s;
+}
+
+.contact  ul li:nth-child(1) a:hover .fab {
+  color: #3b5998;
+}
+
+.contact  ul li:nth-child(2) a:hover .fab {
+  color: #00aced;
+}
+
+.contact  ul li:nth-child(3) a:hover .fab {
+  color: #dd4b39;
+}
+
+.contact  ul li:nth-child(4) a:hover .fab {
+  color: #007bb6;
+}
+
+.contact ul li:nth-child(5) a:hover .fab {
+  color: #e4405f;
+}
+.showcase .scroll-animated{
+     text-align: center;
+}
+.fa-3x{
+    color: black;
+}
+.fa-3x:hover {
+    color: blue;
+}
+.showcase h6{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#service .btn{
+    text-transform: uppercase;
+    font-size: 170px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.contact h6{
+    text-align: center;
+}
+#service p{
+    text-align: center;
+}
